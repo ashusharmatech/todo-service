@@ -2,34 +2,49 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Todo App - Organize Your Tasks Efficiently</title>
+    <title>Todo App - Organize Your Tasks & Boost Productivity</title>
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="A powerful todo app to help you organize tasks, set priorities, and track deadlines. Features include task grouping, labels, and progress tracking." />
-    <meta name="keywords" content="todo app, task management, productivity, task organizer, todo list" />
-    <meta name="author" content="minimu.in" />
+    <meta name="description" content="A feature-rich todo app to help you efficiently organize tasks, set priorities, and track deadlines. Enhance your productivity with task grouping, labels, and progress tracking." />
+    <meta name="keywords" content="todo app, task management, productivity, task organizer, todo list, reminders, schedule planner" />
+    <meta name="author" content="Minimu.in" />
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Todo App - Organize Your Tasks Efficiently" />
-    <meta property="og:description" content="A powerful todo app to help you organize tasks, set priorities, and track deadlines." />
+    <meta property="og:title" content="Todo App - Organize Your Tasks & Boost Productivity" />
+    <meta property="og:description" content="Enhance productivity with our todo app. Organize tasks, set priorities, and track deadlines effortlessly." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://todo.minimu.in" />
+    <meta property="og:image" content="https://todo.minimu.in/og-image.png" />
     
     <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Todo App - Organize Your Tasks Efficiently" />
-    <meta name="twitter:description" content="A powerful todo app to help you organize tasks, set priorities, and track deadlines." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Todo App - Organize Your Tasks & Boost Productivity" />
+    <meta name="twitter:description" content="Enhance productivity with our todo app. Organize tasks, set priorities, and track deadlines effortlessly." />
+    <meta name="twitter:image" content="https://todo.minimu.in/twitter-card.png" />
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://todo.minimu.in" />
     
     <!-- Robots Meta Tag -->
     <meta name="robots" content="index, follow" />
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Todo App",
+      "url": "https://todo.minimu.in",
+      "description": "A feature-rich todo app to organize tasks, set priorities, and track deadlines.",
+      "applicationCategory": "Productivity",
+      "operatingSystem": "Web"
+    }
+    </script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root" role="main"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
